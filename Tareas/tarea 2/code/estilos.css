@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+   
+}
+h2{
+    text-align: center;
+}
+
+
+
+body{
+    background-color: rgba(61, 154, 138, 0.745);
+}
+p{
+    font-weight: 900;
+    text-align: center;
+    color: rgb(84, 9, 24);
+}
+.cuadrado{
+     background-color: darkgreen;
+    width: 500px;
+    height: 500px;
+     background-image: url(./Johnny_Depp_2020.jpg);
+    background-size:  cover;
+   border-radius: 50%;
+   margin: 200px  auto;
+
+}
+li{
+    list-style-type: georgian;
+    color: rgb(7, 51, 8);
+  
+}

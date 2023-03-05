@@ -1,0 +1,20 @@
+@media screen and (max-width:640px) {
+    body{
+        background-color: aquamarine;
+    }
+    .titulo{
+        color: rgb(234, 82, 107);
+    }
+    
+}
+
+@media screen and (min-width:640px) and (max-width:1080px)  {
+    body{
+        background-color: darkblue;
+    }
+    .titulo{
+        color: crimson;
+        font-size: 6rem;
+    }
+    
+}

@@ -1,0 +1,15 @@
+.Contenedor{
+    position: relative;
+}
+.img{
+    width: 100%;
+}
+
+.base{
+    width: 300px;
+    background-color: wheat;
+    margin: 1rem;
+    box-shadow:2px 2px 10px 1px rgba(97, 96, 97, 0.3);
+    border-radius: 10px;
+
+}
