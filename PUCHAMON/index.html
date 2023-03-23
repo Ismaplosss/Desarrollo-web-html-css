@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Puchamon" content="come fantasmas, come galletas, escapa de fantasmas">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/ABEAKRG.TTF">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/PACFONT.TTF">
+   
+
+    <title>Puchamon</title>
+</head>
+<body>
+    <div class="page">
+         <header>
+        <div id="logo"><img src="./rsc/imgs/puchamon2.png" alt="Picture" width="190" /> </div>
+        <nav id="menu">
+            <ul>
+                <li> <a href="#page" title="INICIO">Inicio</a></li>
+                <li> <a href="#fantasmas" title="Informacion">Informacion</a></li>
+                <li> <a href="#GAMEE" title="Recursos" >Game</a></li>
+                <li> <a href="#reseñas " title="Game">Reseñas</a></li>
+                <li> <a href="#contactanos " title="Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+     </header>
+
+     <section id="main">
+        <section id="banner">
+            <p>PUCHAMON <br>Game</p>
+        </section>
+        <section id="fantasmas" class="trabajos">
+            <div class="contenedor">
+              <h3 class="titulo"> <strong> Enemigos por nivel</strong> </h3>
+              <div class="contenedor-tarjetas">
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/rojo.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Achak</h2>
+                    <p>Este se encarga de perseguir a Puchamon y asi matarlo </p>
+                    <a href="#GAMEE">Jugar</a>
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/mora.png" alt="" class="imagen" >
+                  </div>
+                  <div class="card-text">
+                    <h2>Cheveyo</h2>
+                    <p>Este junto a <strong>Achak</strong> se encarga de acorralar a Puchamon </p>
+                    <a href="#GAMEE">Jugar </a>
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/azul.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Chuchip</h2>
+                    <p>Este se dirige a dirrecciones opuestas de sus hermanos</p>
+                    <a href="#GAMEE">Jugar</a>
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/nara.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Ryuu</h2>
+                    <p>Este se mantiene en el centro, de tal manera atacar a puchamon mas facil</p>
+                    <a href="#GAMEE">Jugar</a>
+                  </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                      <img src="./rsc/pics/puchamon.png" alt="" class="imagen">
+                    </div>
+                    <div class="card-text">
+                      <h2>Puchamon </h2>
+                      <p>Este es nuestro personaje, el cual tendra que huir de las diferentes amenasas</p>
+                      <a href="#GAMEE">Jugar</a>
+                    </div>
+                  </article>
+
+                  <article class="card">
+                    <div class="card-image">
+                      <img src="./rsc/pics/islam.png" alt="" class="imagen">
+                    </div>
+                    <div class="card-text">
+                      <h2>Islam</h2>
+                      <p>Esta es la isla en forma de prision, la manera de escapar es ganando los diferentes pasillos
+
+                      </p>
+                      <a href="#GAMEE">Jugar</a>
+                    </div>
+                  </article>
+              </div>
+            </div>
+        </section>
+        <Section id="game">
+            <div class="puchamon">
+                <h1 id="GAMEE">--PUCHAMON--GAME--</h1>
+
+             <div id="shim">shim for font face</div>
+             <div id="pacman"></div>
+             <script src="./js/puchamon.js"></script>
+              <script src="./js/motorGrafico.js"></script>
+
+             <script>
+
+             var el = document.getElementById("pacman");
+
+             if (Modernizr.canvas && Modernizr.localstorage && 
+              Modernizr.audio && (Modernizr.audio.ogg || Modernizr.audio.mp3)) {
+               window.setTimeout(function () { PACMAN.init(el, "./"); }, 0);
+             } else { 
+             el.innerHTML = "No puedes correr este juego en tu navegador Necesitaras como minimo:" + 
+             "(firefox 3.6+, Chrome 4+, Opera 10+ y  Safari 4+)</small>";
+             }
+              </script>
+            </div>
+         </Section>
+         <Section id="reseñas">
+          <section id="fantasmas" class="trabajos">
+            <div class="contenedor">
+              <h3 class="titulo">Reseñas</h3>
+              <div class="contenedor-tarjetas">
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/rojo.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Ismael Quesada Quiros</h2>
+                    <p>Me encanto el jugo, es bastante divertido. <br> <strong>Puntuacion:  ★ ★ ★ ★ ☆ </strong>  </p>
+                    
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/mora.png" alt="" class="imagen" >
+                  </div>
+                  <div class="card-text">
+                    <h2>Jose Castro Perez</h2>
+                    <p>Me parece interesante pero falta optimizarlo por eso mi calificacion <br> <strong>Puntuacion:   ★  ☆ ☆ ☆ ☆ </strong> </p>
+                    
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/azul.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Emanuel Mora Fernandez</h2>
+                    <p>Me gusto el juego muy devertivo  <br> <strong>Puntuacion:  ★ ★ ★ ★ ★ </strong></p>
+                    
+                  </div>
+                </article>
+      
+                <article class="card">
+                  <div class="card-image">
+                    <img src="./rsc/pics/nara.png" alt="" class="imagen">
+                  </div>
+                  <div class="card-text">
+                    <h2>Anonimo </h2>
+                    <p>No me sirve en mi celular, falta optimisarlo para mas dispositivos  <br> <strong>Puntuacion:   ★ ★ ☆ ☆ ☆ </strong></p>
+                    
+                  </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-image">
+                      <img src="./rsc/pics/mora.png" alt="" class="imagen">
+                    </div>
+                    <div class="card-text">
+                      <h2>Michelle Barrientos Rosales </h2>
+                      <p> Me recuerda mi infancia, me parese divertido. <br> <strong>Puntuacion:    ★ ★ ★ ★ ★ </strong></p>
+                    </div>
+                  </article>
+
+                  <article class="card">
+                    <div class="card-image">
+                      <img src="./rsc/pics/rojo.png" alt="" class="imagen">
+                    </div>
+                    <div class="card-text">
+                      <h2>Jose Antonio Monte Negro</h2>
+                      <p>Lo llevo jugando desde que lo lanzaron, ya eh logrado llegar al nivel 58, es realmente adictivo  <br> <strong>Puntuacion:    ★ ★ ★ ★ ★ </strong></p>
+                    </div>
+                  </article>
+                  <section id="contactanos" class="conta">
+                    <div class="contact_form">
+
+                      <div class="formulario">      
+                        <h1>Formulario de contacto</h1>
+                          <h3>Escríbenos sobre problemas del juego o asuntos en general</h3>
+
+                            <form action="https://formsubmit.co/ismaelquesada38@gmail.com" method="POST" >       
+                                  <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                      <span class="obligatorio">*</span>
+                                    </label>
+                                      <input type="text" name="name" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                  </p>
+                                
+                                  <p>
+                                    <label for="email" class="colocar_email">Email
+                                      <span class="obligatorio">*</span>
+                                    </label>
+                                      <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                  </p>      
+                                  <p>
+                                    <label for="asunto" class="colocar_asunto">Asunto
+                                      <span class="obligatorio">*</span>
+                                    </label>
+                                      <input type="text" name="asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                  </p>    
+                                
+                                  <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                      <span class="obligatorio">*</span>
+                                    </label>                     
+                                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                                  </p>                    
+                                
+                                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+                  
+                                  <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                  </p>          
+                              <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                              <input type="hidden" name="_captcha" value="false">
+                              
+                            </form>
+
+                      </div>  
+                    </div>
+                   
+                  </section> 
+                  <footer>
+                    
+                    <section class="redes-sociales">
+                      <p>Sitio Web creado con HTML5 Y CSS3 . 2023 <br> <br> Desarolladores: Ismael Quesada y Michelle Barrientos</p>
+                           <div class="face ">
+                  
+                            <a href="https://www.facebook.com " target="_blank"> <img src="./rsc/imgs/facebook-icon.png" alt="" > </a>
+                           </div>
+                           <br>
+                           <div class="twiter">
+                           
+                            <a href="https://twitter.com" target="_blank"><img src="./rsc/imgs/twitter-icon.png" alt=""></a>  
+                           </div>
+                           <br>
+                           <div class="Youtube">
+                              <a href="https://Youtube.com" target="_blank" > <img src="./rsc/imgs/Youtube.2.png" alt=""></a>
+                           </div>
+                           <br>
+                            <div class="lin">
+                               <a href="https://www.Instagram.com" target="_blank"><img src="./rsc/imgs/Instagram.svg" alt=""></a>
+                            </div>
+                            <br>
+                           
+                            </div>
+                            
+                          </Section>
+                          
+                          </footer>   
+                  
+         </Section>
+         
+    </div>
+    
+    
+</body>
+
+</html>
